@@ -1,0 +1,3 @@
+"analysis","chi_square","df","p","n","test"
+"without_race",34.3389222658821,7,1.48826415019501e-05,67030,"Joint coefficient Wald test; two-source case-process plus ACS SDR covariance"
+"with_race",25.5071544249943,7,0.000616648716085149,34468,"Joint coefficient Wald test; two-source case-process plus ACS SDR covariance"

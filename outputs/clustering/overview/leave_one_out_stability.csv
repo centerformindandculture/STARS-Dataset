@@ -1,0 +1,151 @@
+"domain","k","omitted_unit","adjusted_rand"
+"county",3,"Beaverhead",1
+"county",3,"Big Horn",0.917575206802832
+"county",3,"Blaine",0.917575206802832
+"county",3,"Broadwater",0.869385074023546
+"county",3,"Carbon",0.869385074023546
+"county",3,"Carter",1
+"county",3,"Cascade",1
+"county",3,"Chouteau",1
+"county",3,"Custer",1
+"county",3,"Daniels",1
+"county",3,"Dawson",1
+"county",3,"Deer Lodge",1
+"county",3,"Fallon",1
+"county",3,"Fergus",1
+"county",3,"Flathead",1
+"county",3,"Gallatin",0.74791199837034
+"county",3,"Garfield",1
+"county",3,"Glacier",0.917575206802832
+"county",3,"Golden Valley",1
+"county",3,"Granite",0.806400598568198
+"county",3,"Hill",1
+"county",3,"Jefferson",0.74791199837034
+"county",3,"Judith Basin",1
+"county",3,"Lake",1
+"county",3,"Lewis and Clark",1
+"county",3,"Liberty",0.86884903969198
+"county",3,"Lincoln",1
+"county",3,"McCone",1
+"county",3,"Madison",1
+"county",3,"Meagher",1
+"county",3,"Mineral",1
+"county",3,"Missoula",1
+"county",3,"Musselshell",1
+"county",3,"Park",0.869385074023546
+"county",3,"Petroleum",1
+"county",3,"Phillips",1
+"county",3,"Pondera",1
+"county",3,"Powder River",1
+"county",3,"Powell",1
+"county",3,"Prairie",0.86884903969198
+"county",3,"Ravalli",0.869385074023546
+"county",3,"Richland",1
+"county",3,"Roosevelt",1
+"county",3,"Rosebud",1
+"county",3,"Sanders",1
+"county",3,"Sheridan",0.747617806682605
+"county",3,"Silver Bow",0.806400598568198
+"county",3,"Stillwater",0.74791199837034
+"county",3,"Sweet Grass",1
+"county",3,"Teton",1
+"county",3,"Toole",1
+"county",3,"Treasure",0.86884903969198
+"county",3,"Valley",1
+"county",3,"Wheatland",0.86884903969198
+"county",3,"Wibaux",1
+"county",3,"Yellowstone",1
+"county",4,"Beaverhead",0.596934713375796
+"county",4,"Big Horn",0.513451033443499
+"county",4,"Blaine",0.513451033443499
+"county",4,"Broadwater",0.64005219294172
+"county",4,"Carbon",0.596934713375796
+"county",4,"Carter",0.942549269491603
+"county",4,"Cascade",0.596934713375796
+"county",4,"Chouteau",0.737897509300411
+"county",4,"Custer",1
+"county",4,"Daniels",0.594156907474957
+"county",4,"Dawson",1
+"county",4,"Deer Lodge",0.20529131223734
+"county",4,"Fallon",0.736800845291251
+"county",4,"Fergus",1
+"county",4,"Flathead",0.596934713375796
+"county",4,"Gallatin",1
+"county",4,"Garfield",1
+"county",4,"Glacier",0.513451033443499
+"county",4,"Golden Valley",1
+"county",4,"Granite",1
+"county",4,"Hill",0.942284082569541
+"county",4,"Jefferson",1
+"county",4,"Judith Basin",1
+"county",4,"Lake",0.659598271561855
+"county",4,"Lewis and Clark",1
+"county",4,"Liberty",0.942549269491603
+"county",4,"Lincoln",0.596297353504873
+"county",4,"McCone",0.217582528689146
+"county",4,"Madison",0.596934713375796
+"county",4,"Meagher",0.241866889110725
+"county",4,"Mineral",0.299613300272682
+"county",4,"Missoula",1
+"county",4,"Musselshell",0.942549269491603
+"county",4,"Park",0.835213109277921
+"county",4,"Petroleum",0.942549269491603
+"county",4,"Phillips",1
+"county",4,"Pondera",0.556610231835784
+"county",4,"Powder River",0.942549269491603
+"county",4,"Powell",1
+"county",4,"Prairie",0.553909982826342
+"county",4,"Ravalli",0.640363473877021
+"county",4,"Richland",1
+"county",4,"Roosevelt",1
+"county",4,"Rosebud",1
+"county",4,"Sanders",0.46362439305407
+"county",4,"Sheridan",0.942549269491603
+"county",4,"Silver Bow",0.885272945410918
+"county",4,"Stillwater",1
+"county",4,"Sweet Grass",1
+"county",4,"Teton",0.942284082569541
+"county",4,"Toole",1
+"county",4,"Treasure",0.942549269491603
+"county",4,"Valley",0.594156907474957
+"county",4,"Wheatland",0.553909982826342
+"county",4,"Wibaux",0.887963219105581
+"county",4,"Yellowstone",1
+"month",3,"1",1
+"month",3,"2",1
+"month",3,"3",1
+"month",3,"4",1
+"month",3,"5",1
+"month",3,"6",1
+"month",3,"7",1
+"month",3,"8",1
+"month",3,"9",1
+"month",3,"10",1
+"month",3,"11",1
+"month",3,"12",1
+"month",4,"1",0.318181818181818
+"month",4,"2",0.318181818181818
+"month",4,"3",0.470588235294118
+"month",4,"4",1
+"month",4,"5",1
+"month",4,"6",0.545454545454545
+"month",4,"7",1
+"month",4,"8",1
+"month",4,"9",1
+"month",4,"10",1
+"month",4,"11",1
+"month",4,"12",0.318181818181818
+"weekday",3,"Friday",1
+"weekday",3,"Monday",1
+"weekday",3,"Saturday",1
+"weekday",3,"Sunday",1
+"weekday",3,"Thursday",1
+"weekday",3,"Tuesday",1
+"weekday",3,"Wednesday",1
+"weekday",4,"Friday",1
+"weekday",4,"Monday",1
+"weekday",4,"Saturday",0.423076923076923
+"weekday",4,"Sunday",0.761904761904762
+"weekday",4,"Thursday",1
+"weekday",4,"Tuesday",1
+"weekday",4,"Wednesday",1

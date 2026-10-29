@@ -1,0 +1,4 @@
+"domain","n_units","n_features","selected_k","elbow_k","silhouette_k","gap_1se_k","selection_rule"
+"county",56,8,3,3,2,1,"Smallest k in 3:4 within 0.02 of best silhouette in 3:4"
+"month",12,8,3,3,3,1,"Smallest k in 3:4 within 0.02 of best silhouette in 3:4"
+"weekday",7,3,3,2,2,1,"Smallest k in 3:4 within 0.02 of best silhouette in 3:4"

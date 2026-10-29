@@ -1,0 +1,9 @@
+feature,source,definition
+MEDAGE,2007-2011 ACS B01002_001,"Median age, years"
+AIAN_ALONE_PCT,B02001_004 / B02001_001,"American Indian/Alaska Native alone, percent"
+MEDINCOME,B19013_001,"Median household income, 2011 dollars"
+POVERTY_PCT,B17001_002 / B17001_001,"Below poverty, percent of universe"
+SINGLE_HH_PCT,B11001_008 / B11001_001,"One-person households, percent"
+DIVSEP_PCT,B12001 (007+010+016+019)/001,"Divorced/separated, percent aged 15+"
+DEGREE_PCT,B15002 (014:018 + 031:035)/001,"Associate degree or higher, percent aged 25+"
+UNINSURED_PCT,ACSST5Y2012 insurance workbook,"Uninsured, percent civilian noninstitutionalized"

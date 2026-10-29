@@ -1,0 +1,9 @@
+"domain","k","metric","preferred","F","df1","df2","p","se_method","p_holm_preferred"
+"county",3,"count",TRUE,9.46346506112664,2,55,0.000293697654036139,"County-clustered sandwich with finite-sample correction; t/F with 55 df",0.00117479061614455
+"county",3,"rate",TRUE,6.00817418151045,2,55,0.00436518909525869,"County-clustered sandwich with finite-sample correction; t/F with 55 df",0.0130955672857761
+"month",3,"rate",TRUE,0.366613169246569,2,31,0.696042405709847,"Poisson covariance inflated by max(1, Pearson dispersion)",1
+"weekday",3,"rate",TRUE,0.00586503476825757,2,40,0.994152985742657,"Poisson covariance inflated by max(1, Pearson dispersion)",1
+"county",4,"count",FALSE,21.1033749951552,3,55,3.16626138604943e-09,"County-clustered sandwich with finite-sample correction; t/F with 55 df",
+"county",4,"rate",FALSE,4.45651762544955,3,55,0.0071349073720726,"County-clustered sandwich with finite-sample correction; t/F with 55 df",
+"month",4,"rate",FALSE,0.701112112027934,3,30,0.558800401423383,"Poisson covariance inflated by max(1, Pearson dispersion)",
+"weekday",4,"rate",FALSE,0.0528901581283332,3,39,0.983720076733923,"Poisson covariance inflated by max(1, Pearson dispersion)",

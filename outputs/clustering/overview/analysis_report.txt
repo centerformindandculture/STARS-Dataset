@@ -1,0 +1,47 @@
+Outcome-free clusters and ecological mortality comparisons
+Run time (UTC): 2026-10-27 14:05:15 UTC
+Geographic coverage: all 56 Montana counties, including zero-death Petroleum.
+Outcome totals: 2650 matched county-resident deaths; 114 unmatched/out-of-state records excluded.
+County features: seven 2007-2011 ACS contextual variables plus 2008-2012 ACS uninsured percentage.
+No STARS-derived demographic summaries, death counts or mortality rates enter clustering.
+Monthly features: eight external weather/crime measures. Weekday features: external crash,
+substance-death and happiness measures; no suicide-derived age/veteran/outcome features.
+All features z-standardized; k-means uses 100 starts. Gap statistic: B=200, d.power=2.
+Elbow uses maximum distance from normalized WSS endpoint line. Silhouette and gap are also reported.
+Selection rule: smallest k in the prespecified 3-4 range within 0.02 of the best silhouette in that range.
+Unconstrained elbow, silhouette and gap optima are reported separately.
+Both k=3 and k=4 assignments, profiles and mortality comparisons are retained.
+No mortality result is used for k selection or labeling. Labels ordered by context only.
+Stability: leave-one-unit-out refits, using fixed full-data feature scaling; see stability_summary.csv.
+County mortality denominators: annual July population, summed as person-years.
+2012-2019: revised Census intercensal estimates; 2020-2021: vintage 2021 estimates.
+Pooled mortality rates are crude; demographic-standardized rates are in ../geographic/county_k3_adjusted_rates.csv.
+County rate model: Poisson cluster + year + log(population) offset, county-clustered covariance with finite-sample correction.
+County count model: same model without population offset; ratios compare annual deaths per county.
+Monthly mortality uses 2018, 2020, 2021 (complete month recording).
+Weekday mortality uses 2013-2016, 2018, 2020, 2021 (complete weekday recording).
+Temporal analyses use county-matched Montana residents and statewide person-time, adjusted
+for number of days represented and calendar year. These are not full-decade seasonal estimates.
+Temporal covariance is Poisson covariance multiplied by max(1, Pearson dispersion).
+Primary omnibus tests are Holm-adjusted across the four preferred comparisons (geographic counts,
+geographic rates, month rates, weekday rates). Pairwise p-values adjusted within each fit.
+Pooled rate intervals are descriptive Poisson intervals; Census/ACS uncertainty is not propagated.
+Baseline contextual profiles may change during the decade; small-county ACS estimates can be noisy.
+Month clustering has 12 units; weekday clustering has 7. Results are exploratory.
+Context profiles are descriptive; no post-clustering significance tests of defining features are used.
+
+county: preferred k=3; elbow=3; silhouette optimum=2; gap 1SE=1
+month: preferred k=3; elbow=3; silhouette optimum=3; gap 1SE=1
+weekday: preferred k=3; elbow=2; silhouette optimum=2; gap 1SE=1
+
+Preferred mortality omnibus tests:
+county count k=3: p=0.000293698, Holm p=0.00117479
+county rate k=3: p=0.00436519, Holm p=0.0130956
+month rate k=3: p=0.696042, Holm p=1
+weekday rate k=3: p=0.994153, Holm p=1
+Validation checks passed: 28 of 28
+
+Additional county demographic-standardized sensitivity tests:
+ age: Holm p=0.000323913; years 2012-2021
+age_sex: Holm p=4.755e-05; years 2013-2021 
+See county_k3_adjusted_rates.csv and county_adjusted_notes.txt.

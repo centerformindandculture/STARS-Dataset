@@ -1,0 +1,4 @@
+"variable","category","n","percent_total","percent_known","total_records","known_records","missing_records"
+"EDUC_ATTAIN","LESS_THAN_ASSOCIATE",1904,68.8856729377713,76.16,2764,2500,264
+"EDUC_ATTAIN","ASSOCIATE_OR_HIGHER",596,21.5629522431259,23.84,2764,2500,264
+"EDUC_ATTAIN","Missing",264,9.55137481910275,,2764,2500,264

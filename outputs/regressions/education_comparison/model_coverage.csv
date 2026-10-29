@@ -1,0 +1,13 @@
+"model","year","complete_IPUMS","complete_STARS","included"
+"joint_education_without_race","2013",7974,223,TRUE
+"joint_education_without_race","2014",7809,201,TRUE
+"joint_education_without_race","2015",7884,243,TRUE
+"joint_education_without_race","2016",7985,243,TRUE
+"joint_education_without_race","2017",8109,303,TRUE
+"joint_education_without_race","2018",8224,242,TRUE
+"joint_education_without_race","2019",8504,240,TRUE
+"joint_education_without_race","2021",8545,301,TRUE
+"joint_education_with_race","2017",8109,303,TRUE
+"joint_education_with_race","2018",8224,242,TRUE
+"joint_education_with_race","2019",8504,240,TRUE
+"joint_education_with_race","2021",8545,301,TRUE

@@ -1,0 +1,38 @@
+Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference
+
+Call:
+glm(formula = formula, family = binomial(), data = model_data, 
+    weights = weight, na.action = na.omit, control = glm.control(epsilon = 1e-12, 
+        maxit = 100))
+
+Coefficients:
+                               Estimate     Std. Error   z value   Pr(>|z|)    
+(Intercept)              -7.96255792704  0.10396226021 -76.59085 < 2.22e-16 ***
+SEXFEMALE                -1.24709318238  0.08009913902 -15.56937 < 2.22e-16 ***
+AGE_ADULT25-34           -0.05201150202  0.11750907142  -0.44262 0.65804285    
+AGE_ADULT35-44           -0.28747240365  0.12144354399  -2.36713 0.01792674 *  
+AGE_ADULT45-54           -0.53744687602  0.12612635432  -4.26118 2.0335e-05 ***
+AGE_ADULT55-64           -0.80721805762  0.12833175045  -6.29009 3.1729e-10 ***
+AGE_ADULT65-74           -0.90360667558  0.13828748419  -6.53426 6.3924e-11 ***
+AGE_ADULT75-84           -0.54460865976  0.15892677492  -3.42679 0.00061076 ***
+AGE_ADULT85+              0.01988870913  0.19945555446   0.09971 0.92057060    
+RACEAMERICAN INDIAN       0.36732520880  0.11746665634   3.12706 0.00176564 ** 
+RACEOTHER                -1.46463797835  0.22410347884  -6.53554 6.3379e-11 ***
+VETSTATAF                 0.42897818951  0.09391999664   4.56749 4.9361e-06 ***
+FARMFARMER                1.15667684259  0.15801434166   7.32008 2.4783e-13 ***
+EDUC_PARTIALPARTIAL       1.05221308847  0.06745056939  15.59977 < 2.22e-16 ***
+DIVSEPDIVORCED/SEPARATED  1.45051500855  0.07785709136  18.63048 < 2.22e-16 ***
+YEAR2018                 -0.25123646200  0.09147581646  -2.74648 0.00602386 ** 
+YEAR2019                 -0.22102572615  0.09073964468  -2.43582 0.01485795 *  
+YEAR2021                 -0.00574048183  0.08568093440  -0.06700 0.94658301    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 19634.49646  on 34467  degrees of freedom
+Residual deviance: 18295.43936  on 34450  degrees of freedom
+AIC: 18331.43936
+
+Number of Fisher Scoring iterations: 9
+

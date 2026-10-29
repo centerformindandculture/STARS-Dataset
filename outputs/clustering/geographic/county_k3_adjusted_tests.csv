@@ -1,0 +1,3 @@
+"adjustment","F","df1","df2","p","first_year","last_year","n_cells","deaths","person_years","se_method","p_holm"
+"age",9.3320764895145,2,55,0.000323913071533894,2012,2021,5040,2650,10517601,"County-clustered sandwich with finite-sample correction; t/F with 55 df",0.000323913071533894
+"age_sex",13.0017486286138,2,55,2.37749875216593e-05,2013,2021,9071,2441,9512126,"County-clustered sandwich with finite-sample correction; t/F with 55 df",4.75499750433186e-05

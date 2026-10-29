@@ -1,0 +1,12 @@
+Age-adjusted county rates: 2012-2021, known ages only.
+Age-and-sex-adjusted county rates: 2013-2021; 2012 has no recorded sex.
+Age bands: <15, 15-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, 85+.
+Population totals exactly reconcile to the denominators used for the crude county analysis.
+Each model includes county cluster, age (or joint age-sex stratum), categorical year and log population offset.
+Rates are model-standardized to the same pooled Montana stratum/year population distribution for all clusters.
+These are internally standardized rates, not rates standardized to the US 2000 population.
+Intervals use delta-method log-rate uncertainty, county-clustered sandwich with finite-sample correction covariance and t(55) limits.
+Omnibus comparisons use county-clustered F tests, with Holm adjustment across the two adjusted sensitivity analyses.
+Missing age/sex records are excluded from the relevant numerator; coverage accounting is retained separately.
+The adjusted models assume common cluster rate ratios across demographic strata and years.
+Population-estimate error and cluster-construction uncertainty are not propagated.

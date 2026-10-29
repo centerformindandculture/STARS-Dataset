@@ -1,0 +1,8 @@
+"check","passed"
+"all 2764 source records accounted for",TRUE
+"298 records in 2020",TRUE
+"four contrasts with ten tests each",TRUE
+"all p-values finite and within bounds",TRUE
+"Holm correction does not reduce p-values",TRUE
+"category totals reconcile",TRUE
+"no 2020 records in comparison year sets",TRUE

@@ -1,0 +1,18 @@
+Adult regression sensitivity analyses
+All regressions use adults age 18+ in both sources; reference age is 18-24.
+Older groups: 65-74, 75-84 and 85+.
+marital_adjustment_comparison.csv and its with_race companion compare omission/inclusion of marital status on identical records.
+Marital coding discontinuities remain unresolved; comparisons isolate adjustment, not data repair.
+The sex-specific tables derive within-sex age contrasts from Model 4 plus all age-by-sex interactions.
+Each interaction model shares records with the corresponding additive Model 4.
+Joint interaction Wald tests (two-source case-process plus ACS SDR covariance):
+without_race: chi-square(7)=34.3389, p=1.48826e-05; n=67030
+with_race: chi-square(7)=25.5072, p=0.000616649; n=34468
+
+Older-age odds ratios with and without marital adjustment:
+without_race AGE_ADULT65-74: without marital 0.668; with marital 0.347
+without_race AGE_ADULT75-84: without marital 0.830; with marital 0.509
+without_race AGE_ADULT85+: without marital 1.096; with marital 0.858
+with_race AGE_ADULT65-74: without marital 0.577; with marital 0.377
+with_race AGE_ADULT75-84: without marital 0.705; with marital 0.521
+with_race AGE_ADULT85+: without marital 0.999; with marital 0.841

@@ -1,0 +1,9 @@
+"model","years","replicates_per_year","refits","unique_covariate_cells","maximum_score_residual","maximum_iterations","positive_weight_reference_error","full_sample_score_error","case_weights_fixed","negative_replicates_preserved","passed","elapsed_seconds"
+"sequential_marital_three_categories_model1",8,80,640,128,1.83586479352016e-12,4,1.52655665885959e-14,1.01252339845814e-13,TRUE,TRUE,TRUE,0.42
+"sequential_marital_three_categories_model2",8,80,640,254,1.95710114780923e-12,4,3.30263594250368e-13,5.15143483426073e-14,TRUE,TRUE,TRUE,0.5
+"sequential_marital_three_categories_model3",8,80,640,427,2.05080397108759e-12,4,1.77635683940025e-14,2.24709140184132e-13,TRUE,TRUE,TRUE,0.68
+"sequential_marital_three_categories_model4",8,80,640,1567,3.11151104881446e-12,4,2.98960856071062e-12,4.2854608750531e-14,TRUE,TRUE,TRUE,2.28
+"sequential_marital_three_categories_with_race_model1",4,80,320,190,1.09123821090407e-12,4,4.44089209850063e-15,2.38031816479634e-13,TRUE,TRUE,TRUE,0.220000000000001
+"sequential_marital_three_categories_with_race_model2",4,80,320,339,1.00708330563748e-12,4,1.50990331349021e-14,2.62012633811537e-14,TRUE,TRUE,TRUE,0.31
+"sequential_marital_three_categories_with_race_model3",4,80,320,461,1.01607611213694e-12,4,4.66293670342566e-15,1.50990331349021e-13,TRUE,TRUE,TRUE,0.42
+"sequential_marital_three_categories_with_race_model4",4,80,320,1430,1.08124620368244e-12,5,1.2022161044456e-11,2.64677169070637e-13,TRUE,TRUE,TRUE,1.01

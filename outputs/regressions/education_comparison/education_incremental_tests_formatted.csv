@@ -1,0 +1,5 @@
+"analysis","test","OR (95% CI)","Wald chi-square (df=1)","Raw p","Holm p"
+"without_race","Partial attainment adds beyond the degree split","6.451 (5.532-7.523)",565.281,"< 1e-16","< 1e-16"
+"without_race","Degree attainment adds beyond the partial split","2.529 (2.134-2.998)",114.445,"< 1e-16","< 1e-16"
+"with_race","Partial attainment adds beyond the degree split","3.502 (2.941-4.171)",197.85,"< 1e-16","< 1e-16"
+"with_race","Degree attainment adds beyond the partial split","1.451 (1.193-1.764)",13.874,"0.0001955","0.0001955"

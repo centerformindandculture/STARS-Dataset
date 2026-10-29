@@ -1,0 +1,14 @@
+Suggested paper note
+
+The STARS dataset contained 298 deaths in 2020. In exploratory comparisons
+with the other study years, recorded education and marital-status distributions
+differed after Holm adjustment for ten distribution tests (both adjusted p<0.001).
+Among records with known values, high-school/GED completion was recorded for
+119/295 (40.3%) in 2020 versus 182/2205 (8.3%) in other years, and separation
+for 99/296 (33.4%) versus 146/2230 (6.5%). No other tested distribution
+differences remained significant after adjustment. Similar category patterns
+were present in 2021. Abrupt year-to-year changes in category use indicate
+that temporal consistency of education and marital-status coding requires
+verification before interpreting these differences as pandemic-related.
+These comparisons describe decedent composition rather than population
+mortality rates, and non-significance does not establish equivalence.

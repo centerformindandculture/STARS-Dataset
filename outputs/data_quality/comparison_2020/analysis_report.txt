@@ -1,0 +1,41 @@
+Exploratory 2020 STARS comparison
+Source: 20230831_Montana_Suicide_Database.csv.
+Run time (UTC): 2026-10-27 14:06:49 UTC
+298 records in 2020; 2466 records in the other nine years (mean 274 per year).
+This compares recorded decedent composition and missingness, not mortality rates.
+All-other-years comparison: 2012-2019 and 2021.
+Comparable-coverage comparison: 2017-2019 and 2021 (race is available from 2017 in this file).
+Recent pre2020 comparison: 2017-2019; avoids including 2021 as a comparator.
+Adjacent-year comparison: 2021 only; assesses whether recorded shifts persist after 2020.
+Ten distribution tests per contrast: age mean plus nine categorical distributions.
+Holm adjustment is applied across these ten tests separately within each contrast.
+Missingness tests form a separate Holm-adjusted family per contrast.
+Sparse category tables use fixed-margin Monte Carlo chi-square tests (49999 replicates;
+seed 2020). Other category tests use Pearson chi-square without continuity correction.
+Age uses Welch's t-test and a 95% confidence interval for the mean difference.
+Category percentages exclude missing values; missingness is reported separately.
+No differences being detected does not establish equivalence or absence of pandemic effects.
+These unadjusted exploratory comparisons cannot identify causal effects of COVID-19.
+Marital status uses divorced/separated/other recorded categories.
+County comparisons use recorded county names, not outcome-derived county clusters.
+The primary descriptive comparison is all other years; comparable-coverage and
+recent-pre2020 contrasts assess sensitivity to changes in data collection and period.
+
+Distribution test results (Holm p < .05):
+all_other_years : EDUC_DETAILS, MARST2
+comparable_coverage : EDUC_DETAILS, MARST2
+recent_pre2020 : EDUC_DETAILS, MARST2
+adjacent_2021 : none
+
+Missingness differences (Holm p < .05):
+all_other_years : SEX, EDUC_DETAILS, MARST2, VETSTAT, FARM, RACE, MONTH, WEEKDAY
+comparable_coverage : MONTH, WEEKDAY
+recent_pre2020 : MONTH, WEEKDAY
+adjacent_2021 : none
+
+Interpretation requiring coding verification:
+No HIGH SCHOOL OR GED records despite known education in years: 2013, 2014, 2015, 2016, 2017, 2019
+Recorded education and separation proportions change sharply around 2020 and
+similar patterns appear in 2021. These could reflect category harmonization
+or collection differences; pandemic explanations are not established.
+The comparison uses recorded labels and the documented demographic groupings.

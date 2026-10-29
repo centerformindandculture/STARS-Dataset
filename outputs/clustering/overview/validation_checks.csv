@@ -1,0 +1,29 @@
+"check","passed"
+"all 56 counties unique",TRUE
+"all county years represented",TRUE
+"2650 county-matched deaths",TRUE
+"Petroleum included with zero deaths",TRUE
+"positive population denominators",TRUE
+"complete temporal years only",TRUE
+"temporal outcome totals agree in common years",TRUE
+"temporal person years agree",TRUE
+"county no outcome features",TRUE
+"county finite scaled features",TRUE
+"month no outcome features",TRUE
+"month finite scaled features",TRUE
+"weekday no outcome features",TRUE
+"weekday finite scaled features",TRUE
+"county 3 every county assigned",TRUE
+"county 3 count fit valid",TRUE
+"county 3 rate fit valid",TRUE
+"month 3 all units assigned",TRUE
+"month 3 rate fit valid",TRUE
+"weekday 3 all units assigned",TRUE
+"weekday 3 rate fit valid",TRUE
+"county 4 every county assigned",TRUE
+"county 4 count fit valid",TRUE
+"county 4 rate fit valid",TRUE
+"month 4 all units assigned",TRUE
+"month 4 rate fit valid",TRUE
+"weekday 4 all units assigned",TRUE
+"weekday 4 rate fit valid",TRUE

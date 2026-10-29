@@ -1,0 +1,4 @@
+"variable","category","n","percent_total","percent_known","total_records","known_records","missing_records"
+"FARM","OTHER",2401,86.8668596237337,95.2399841332804,2764,2521,243
+"FARM","FARMER",120,4.34153400868307,4.76001586671956,2764,2521,243
+"FARM","Missing",243,8.79160636758321,,2764,2521,243

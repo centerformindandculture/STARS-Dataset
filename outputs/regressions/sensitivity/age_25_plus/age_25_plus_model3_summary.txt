@@ -1,0 +1,37 @@
+Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference
+
+Call:
+glm(formula = formula, family = binomial(), data = model_data, 
+    weights = weight, na.action = na.omit, control = glm.control(epsilon = 1e-12, 
+        maxit = 100))
+
+Coefficients:
+                     Estimate     Std. Error   z value   Pr(>|z|)    
+(Intercept)    -7.71127101571  0.08989564217 -85.78025 < 2.22e-16 ***
+SEXFEMALE      -1.18201999467  0.06146977506 -19.22929 < 2.22e-16 ***
+AGE_ADULT35-44 -0.04302576510  0.07663758621  -0.56142 0.57451222    
+AGE_ADULT45-54 -0.07171962029  0.07700933287  -0.93131 0.35169284    
+AGE_ADULT55-64 -0.27695048583  0.07710073522  -3.59206 0.00032807 ***
+AGE_ADULT65-74 -0.60610123370  0.09154285084  -6.62096 3.5688e-11 ***
+AGE_ADULT75-84 -0.33208043604  0.10757482282  -3.08697 0.00202207 ** 
+AGE_ADULT85+   -0.00279874989  0.14206660163  -0.01970 0.98428248    
+VETSTATAF       0.50029827170  0.06642456566   7.53183 5.0036e-14 ***
+FARMFARMER      0.81047411169  0.11526948012   7.03112 2.0488e-12 ***
+YEAR2014       -0.08211471071  0.10410722534  -0.78875 0.43025737    
+YEAR2015        0.12711243685  0.09877207125   1.28693 0.19811976    
+YEAR2016        0.09165788487  0.09968173800   0.91951 0.35783134    
+YEAR2017        0.28925482119  0.09498826403   3.04516 0.00232554 ** 
+YEAR2018        0.03503783336  0.10002059903   0.35031 0.72610893    
+YEAR2019        0.01932119514  0.10065815284   0.19195 0.84778244    
+YEAR2021        0.20704615487  0.09557132607   2.16640 0.03028029 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 31851.74421  on 60604  degrees of freedom
+Residual deviance: 31065.99370  on 60588  degrees of freedom
+AIC: 31099.9937
+
+Number of Fisher Scoring iterations: 9
+

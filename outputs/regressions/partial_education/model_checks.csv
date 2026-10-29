@@ -1,0 +1,9 @@
+"model","model_rows","cases","comparison_records","confirmed_montana_cases","non_montana_cases","unknown_residence_cases","residence_verified","weight_total","converged","rank","parameters","variance_method","minimum_age","maximum_age","year_reference","year_terms","passed"
+"sequential_partial_education_model1",67030,1996,65034,1996,0,0,TRUE,6582459,TRUE,16,16,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2013",7,TRUE
+"sequential_partial_education_model2",67030,1996,65034,1996,0,0,TRUE,6582459,TRUE,17,17,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2013",7,TRUE
+"sequential_partial_education_model3",67030,1996,65034,1996,0,0,TRUE,6582459,TRUE,18,18,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2013",7,TRUE
+"sequential_partial_education_model4",67030,1996,65034,1996,0,0,TRUE,6582459,TRUE,20,20,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2013",7,TRUE
+"sequential_partial_education_with_race_model1",34468,1086,33382,1086,0,0,TRUE,3369386,TRUE,14,14,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2017",3,TRUE
+"sequential_partial_education_with_race_model2",34468,1086,33382,1086,0,0,TRUE,3369386,TRUE,15,15,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2017",3,TRUE
+"sequential_partial_education_with_race_model3",34468,1086,33382,1086,0,0,TRUE,3369386,TRUE,16,16,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2017",3,TRUE
+"sequential_partial_education_with_race_model4",34468,1086,33382,1086,0,0,TRUE,3369386,TRUE,18,18,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2017",3,TRUE

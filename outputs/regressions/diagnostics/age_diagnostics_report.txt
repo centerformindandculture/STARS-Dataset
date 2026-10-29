@@ -1,0 +1,54 @@
+Age pattern diagnostics for year-matched STARS/IPUMS regressions
+All source years are 2012-2019 and 2021; 2020 is excluded.
+The main table is held on the Model 4 complete-case sample even in Model 1.
+Inspect age_sample_retention.csv for source-specific age selection and missingness.
+IPUMS veteran not-in-universe observations are not coded as nonveterans in these models.
+Age groups use the same numeric cutpoints for both sources; the 18-24 reference is explicit.
+Age coefficients are conditional associations with case versus population-record status, not predictions of future death.
+No sex-by-age or race-by-age interactions appear in the four-column tables.
+Principal regressions include adults age 18+ with separate 65-74, 75-84 and 85+ categories.
+The retention audit preserves the raw child counts to document their exclusion; no child enters a regression.
+Crude audit values use STARS cases and IPUMS population weights without Model 4 complete-case filtering.
+Each crude stratum excludes years with no cases having the necessary recorded age/sex/race in BOTH sources.
+Study years are listed in the crude CSV. Remaining within-year missing demographics can underestimate source rates.
+These are source-based descriptive rates, not independently validated official resident mortality rates.
+Marital status has documented source-coding discontinuities. Adjustment can transmit these errors into age coefficients.
+The race table retains the existing Hispanic-to-Other classification; White male refers to that harmonized category.
+Standard errors combine Poisson case-process and year-blocked ACS SDR covariance; coding uncertainty is not propagated.
+
+Older-adult odds ratios relative to age 18-24:
+Full available sex_age_year AGE_ADULT65-74: 0.747 (0.620-0.899), n=67081
+Full available sex_age_year AGE_ADULT75-84: 1.020 (0.822-1.265), n=67081
+Full available sex_age_year AGE_ADULT85+: 1.453 (1.098-1.924), n=67081
+Common sample Model 1 AGE_ADULT65-74: 0.739 (0.613-0.892), n=67030
+Common sample Model 1 AGE_ADULT75-84: 1.002 (0.806-1.247), n=67030
+Common sample Model 1 AGE_ADULT85+: 1.452 (1.095-1.927), n=67030
+Common sample Model 3 AGE_ADULT65-74: 0.579 (0.474-0.708), n=67030
+Common sample Model 3 AGE_ADULT75-84: 0.760 (0.604-0.955), n=67030
+Common sample Model 3 AGE_ADULT85+: 1.052 (0.785-1.410), n=67030
+Common sample Model 3 plus education AGE_ADULT65-74: 0.668 (0.546-0.818), n=67030
+Common sample Model 3 plus education AGE_ADULT75-84: 0.830 (0.660-1.043), n=67030
+Common sample Model 3 plus education AGE_ADULT85+: 1.096 (0.818-1.469), n=67030
+Common sample Model 3 plus marital AGE_ADULT65-74: 0.312 (0.254-0.384), n=67030
+Common sample Model 3 plus marital AGE_ADULT75-84: 0.473 (0.372-0.601), n=67030
+Common sample Model 3 plus marital AGE_ADULT85+: 0.824 (0.611-1.111), n=67030
+Common sample Model 4 AGE_ADULT65-74: 0.347 (0.281-0.429), n=67030
+Common sample Model 4 AGE_ADULT75-84: 0.509 (0.401-0.647), n=67030
+Common sample Model 4 AGE_ADULT85+: 0.858 (0.637-1.155), n=67030
+Race complete Model 4 without race AGE_ADULT65-74: 0.400 (0.305-0.524), n=34468
+Race complete Model 4 without race AGE_ADULT75-84: 0.552 (0.406-0.751), n=34468
+Race complete Model 4 without race AGE_ADULT85+: 0.902 (0.613-1.326), n=34468
+Race complete Model 4 with race AGE_ADULT65-74: 0.377 (0.288-0.494), n=34468
+Race complete Model 4 with race AGE_ADULT75-84: 0.521 (0.384-0.708), n=34468
+Race complete Model 4 with race AGE_ADULT85+: 0.841 (0.572-1.237), n=34468
+
+Crude source-based White male rates per 100,000 person-years; years: 2017;2018;2019;2021
+<18: deaths=25, person-years=368329, rate=6.79
+18-24: deaths=79, person-years=172413, rate=45.82
+25-34: deaths=143, person-years=229533, rate=62.30
+35-44: deaths=127, person-years=232335, rate=54.66
+45-54: deaths=122, person-years=211892, rate=57.58
+55-64: deaths=112, person-years=268112, rate=41.77
+65-74: deaths=98, person-years=230572, rate=42.50
+75-84: deaths=69, person-years=101877, rate=67.73
+85+: deaths=36, person-years=35063, rate=102.67

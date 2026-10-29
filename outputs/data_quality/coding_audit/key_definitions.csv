@@ -1,0 +1,8 @@
+field,key_definition
+DEM_EDU1EducationAchieved,"Level of education achieved: No High School, Some High School, High School of GED, Some College, Associates, Bachelors, Masters, Doctorate (264 missing)"
+DEM_EDU1EducationAchievedNum,"Level of education achieved (as a number): 1 = No High School, 2 = Some High School, 3 = High School of GED, 4 = Some College, 5 = Associates, 6 = Bachelors, 7 = Masters, 8 = Doctorate (264 missing)"
+DEM_MAR1MaritalStatus,"UNCLEAR: Marital Status: DIVORCED, MARRIED (NOT PREVIOUSLY DIVORCED, NOT SEPARATED), MARRIED (PREVIOUSLY DIVORCED, NOT SEPARATED), MARRIED (SEPARATED), NEVER MARRIED, SINGLE, WIDOWED; how is Single distinguished from Never Married and Divorced? (238 missing)"
+DEM_MAR2EverMarried,"UNCLEAR: Ever Married: 0 = No (for Never Married and 51 singles), 1 = Yes (for other options); the other 278 singles are marked blank here, along with the records for which there is no marital status; the difference between Single and Never Married remains unclear here (516 missing)"
+DEM_MAR3Married,"Married: 0 = No (the Married options), 1 = Yes (Single, Never Married, Divorced) (238 missing)"
+DEM_OCC3RancherFarmer,"Rancher or Farmer: 1 = Yes, 2 = No (243 missing)"
+DEM_OCC5ArmedForcesEver,"Ever in the Armed Forces: 1 = Yes, 2 = No (217 missing)"

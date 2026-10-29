@@ -1,0 +1,40 @@
+Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference
+
+Call:
+glm(formula = formula, family = binomial(), data = model_data, 
+    weights = weight, na.action = na.omit, control = glm.control(epsilon = 1e-12, 
+        maxit = 100))
+
+Coefficients:
+                              Estimate    Std. Error   z value   Pr(>|z|)    
+(Intercept)              -8.7494495712  0.1003698378 -87.17210 < 2.22e-16 ***
+SEXFEMALE                -1.2842168259  0.0601428572 -21.35277 < 2.22e-16 ***
+AGE_ADULT25-34            0.0429573212  0.0906550456   0.47385 0.63560351    
+AGE_ADULT35-44           -0.2459203889  0.0946204819  -2.59902 0.00934907 ** 
+AGE_ADULT45-54           -0.5225758409  0.0966914367  -5.40457 6.4963e-08 ***
+AGE_ADULT55-64           -0.7339938532  0.0979232341  -7.49560 6.5993e-14 ***
+AGE_ADULT65-74           -0.8863859139  0.1085855673  -8.16302 3.2676e-16 ***
+AGE_ADULT75-84           -0.4692792875  0.1272996640  -3.68641 0.00022744 ***
+AGE_ADULT85+              0.1062229436  0.1563526058   0.67938 0.49689667    
+VETSTATAF                 0.3918670178  0.0709126761   5.52605 3.2752e-08 ***
+FARMFARMER                1.1508500651  0.1223833141   9.40365 < 2.22e-16 ***
+EDUC_PARTIALPARTIAL       1.3165714058  0.0515645105  25.53251 < 2.22e-16 ***
+DIVSEPDIVORCED/SEPARATED  1.9000719703  0.0556224165  34.16018 < 2.22e-16 ***
+YEAR2014                 -0.1094181917  0.1070742665  -1.02189 0.30683266    
+YEAR2015                  0.1812797254  0.0995101688   1.82172 0.06849739 .  
+YEAR2016                  0.1482291487  0.1004519123   1.47562 0.14004514    
+YEAR2017                  0.3690554875  0.0969278832   3.80753 0.00014036 ***
+YEAR2018                  0.1129271260  0.1015923656   1.11157 0.26632265    
+YEAR2019                  0.1719088559  0.1004235003   1.71184 0.08692636 .  
+YEAR2021                  0.3433787372  0.0960870642   3.57362 0.00035208 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 36330.66048  on 67029  degrees of freedom
+Residual deviance: 33087.87018  on 67010  degrees of freedom
+AIC: 33127.87018
+
+Number of Fisher Scoring iterations: 9
+

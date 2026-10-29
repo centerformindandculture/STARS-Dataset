@@ -1,0 +1,9 @@
+Entries are age odds ratios within each sex, relative to age 18-24 of the same sex.
+Adults only; fitted as one Model 4 specification with all age-by-sex interaction terms.
+Covariates: veteran status, farming, attainment, divorced/separated and categorical year.
+Also adjusts for the existing harmonized race/ethnicity variable.
+Same sample as the corresponding additive Model 4; these are adjusted contrasts, not crude rates.
+* p<0.05; ** p<0.01; *** p<0.001; unadjusted two-sided contrast Wald tests.
+Two-source Wald intervals include ACS sampling and Poisson case-process covariance; coding uncertainty is not propagated.
+Sparse sex/age cells may have wide intervals; see age_sex_cell_counts.csv.
+The joint interaction test is in age_sex_interaction_tests.csv.

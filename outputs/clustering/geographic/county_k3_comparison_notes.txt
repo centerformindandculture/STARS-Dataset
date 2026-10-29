@@ -1,0 +1,17 @@
+Contextual characteristics are unweighted means (SD) across counties. Each county contributes equally; these are not pooled resident percentages. Seven characteristics use 2007-2011 ACS five-year estimates; uninsured percentage uses 2008-2012 ACS.
+
+Annual deaths per county are summarized using each county's 2012-2021 mean annual count; SD is across counties. Total deaths and person-years describe aggregate burden and exposure.
+
+Mortality rates pool deaths and annual populations over 2012-2021, per 100,000 person-years. Parentheses are descriptive exact Poisson 95% intervals with fixed population denominators. Rates are crude and are not age-standardized.
+
+P-values are omnibus comparisons across the three clusters from Poisson models with categorical year and county-clustered sandwich with finite-sample correction covariance (F reference, 2 and 55 df). The rate model includes log(population) as an offset; the count model does not. Displayed p-values are Holm-adjusted across the four preferred county-count, county-rate, month-rate and weekday-rate tests. Raw and adjusted values are retained in the numeric export.
+
+No p-values are given for defining cluster characteristics, because clustering was designed to separate counties on these measures. Totals are descriptive; their differing number of counties is not itself tested. Census uncertainty and cluster-selection uncertainty are not propagated.
+
+Adjusted rates use Poisson models with cluster, categorical year and age or joint age-by-sex strata, with population offsets. They are standardized to a common pooled Montana demographic/year distribution. Age bands are <15, 15-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84 and 85+. Intervals use county-clustered sandwich with finite-sample correction covariance and t(55) limits.
+
+Age adjustment covers 2012-2021 (2,650 county-matched deaths). Age/sex adjustment covers 2013-2021 (2,441 deaths), because sex is unavailable in 2012. These are internally standardized rates; the two periods differ. Matched-period crude rates are retained in county_k3_adjusted_rates.csv.
+
+The two demographic-standardization tests form a separate Holm-adjusted family. Population-estimate and cluster-selection uncertainty are not propagated.
+
+All 56 counties are included, including Petroleum with zero deaths. The analysis covers 2,650 county-matched deaths; 114 records without a usable Montana county are excluded.

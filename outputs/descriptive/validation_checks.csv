@@ -1,0 +1,7 @@
+"check","passed"
+"full cohort 2764",TRUE
+"years 2012-2021",TRUE
+"month missing 1530",TRUE
+"weekday missing 489",TRUE
+"county cluster matched 2650",TRUE
+"all frequency totals match",TRUE

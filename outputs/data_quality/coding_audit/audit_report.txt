@@ -1,0 +1,37 @@
+Dataset key and CSV demographic coding audit
+
+Sources: 20230528 MT Dataset Key.docx and
+R - Data Exploration/20230831_Montana_Suicide_Database.csv.
+This audit does not change primary records or regression recodes.
+
+Findings
+- The key explicitly identifies marital status and ever-married as UNCLEAR.
+- It does not document year-specific coding crosswalks or identify which annual
+  categories should be merged, relabeled or treated as unknown.
+- Education numeric codes and text labels agree for all available paired values.
+  They encode the same information; neither supplies independent verification.
+- There are no HIGH SCHOOL OR GED records in 2013-2017 or 2019 despite known
+  education in those years. The distinction from SOME HIGH SCHOOL cannot be
+  reconstructed reliably from these two fields.
+- No married records are labeled in 2013-2016. In 2020 and 2021, every record
+  labeled as married is labeled MARRIED (SEPARATED), with no not-separated category.
+  These patterns strongly question comparability but do not prove the intended
+  replacement category.
+- Redundant ever-married and married fields reflect the same status categories.
+  They do not establish whether separated labels should instead mean married.
+- The key's farm/veteran coding describes 1/2, whereas the supplied CSV uses 0/1.
+  The regression implementation follows observed 0/1 coding. The key cannot
+  be treated as an exact specification of every export field.
+
+Interpretation
+The degree indicator combines all below-associate attainment labels. Partial
+attainment retains the recorded SOME HIGH SCHOOL and SOME COLLEGE distinction.
+Both classifications are analyzed; neither validates the underlying labels.
+Divorced and separated are combined in the principal regressions. A same-sample
+comparison omitting marital status assesses its influence on other estimates.
+Year effects account for calendar differences in the intercept but do not
+correct exposure misclassification. Frequency patterns alone do not identify
+replacement labels or establish the reason for absent categories.
+
+The audit establishes internal consistency and recording discontinuities. It
+cannot determine the true marital status or educational history of individuals.

@@ -1,0 +1,4 @@
+"variable","category","n","percent_total","percent_known","total_records","known_records","missing_records"
+"VETSTAT","NOT AF",2034,73.589001447178,79.8586572438163,2764,2547,217
+"VETSTAT","AF",513,18.5600578871201,20.1413427561837,2764,2547,217
+"VETSTAT","Missing",217,7.85094066570188,,2764,2547,217

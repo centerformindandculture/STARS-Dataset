@@ -1,0 +1,42 @@
+Joint education-indicator comparison, confirmed-Montana-resident adult samples.
+Both indicators enter the fully adjusted model: sex, adult age, veteran, farmer/rancher, divorced/separated and categorical year; race is added in the companion model.
+Age reference: 18-24. Education tests are invariant to changing the age reference.
+Education reference: other recorded below-associate attainment (STARS NO HIGH SCHOOL or HIGH SCHOOL OR GED; matching IPUMS below-grade-9 or high-school/GED codes).
+Partial: STARS SOME HIGH SCHOOL or SOME COLLEGE; IPUMS EDUCD 30/40/50/61/65/71. Degree: associate or higher.
+The mutually exclusive indicators create a three-group education classification.
+Testing the partial coefficient at zero tests whether partial adds beyond the degree-only model, which pools partial with other below-associate.
+Testing the degree coefficient at zero tests whether degree adds beyond the partial-only model, which pools degree with other below-associate.
+Each is a 1-df Wald test using combined Poisson mortality-event and year-blocked ACS SDR covariance; 80 signed replicates per annual sample, scaling 4/80.
+Raw and Holm-adjusted p-values are reported. The two incremental tests form one family within each sequence; race-inclusive tests are a separate sensitivity family.
+The two indicator ORs share the other-below-associate reference and differ from their binary-model contrasts.
+The partial-versus-degree contrast is descriptive with a pointwise 95% CI; contrast CIs are not multiplicity-adjusted.
+Sample equality, checksum consistency, resident eligibility and equivalence to a three-level factor are checked.
+These tests assess additional statistical information in recorded categories. They cannot establish causal effects or distinguish real patterns from recording/classification changes.
+
+Incremental tests:
+     analysis                                            test
+ without_race Partial attainment adds beyond the degree split
+ without_race Degree attainment adds beyond the partial split
+    with_race Partial attainment adds beyond the degree split
+    with_race Degree attainment adds beyond the partial split
+         OR (95% CI) Wald chi-square (df=1)     Raw p    Holm p
+ 6.451 (5.532-7.523)                565.281   < 1e-16   < 1e-16
+ 2.529 (2.134-2.998)                114.445   < 1e-16   < 1e-16
+ 3.502 (2.941-4.171)                197.850   < 1e-16   < 1e-16
+ 1.451 (1.193-1.764)                 13.874 0.0001955 0.0001955
+
+Three-group contrasts:
+     analysis                       comparison    odds_ratio      ci_lower
+ without_race Partial vs other below-associate 6.45137002826 5.53232465330
+ without_race  Degree vs other below-associate 2.52914547310 2.13375723885
+ without_race                Partial vs degree 2.55081018347 2.26927736035
+    with_race Partial vs other below-associate 3.50233466573 2.94107478737
+    with_race  Degree vs other below-associate 1.45052588249 1.19269739124
+    with_race                Partial vs degree 2.41452752274 2.06439187500
+      ci_upper
+ 7.52308981301
+ 2.99779970637
+ 2.86727074697
+ 4.17070254842
+ 1.76408982801
+ 2.82404868411

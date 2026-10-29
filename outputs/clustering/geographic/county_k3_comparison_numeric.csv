@@ -1,0 +1,46 @@
+﻿characteristic,cluster,display,statistic,estimate,sd,p_raw,p_holm
+"Counties, n",1,28,descriptive,,,,
+"Counties, n",2,6,descriptive,,,,
+"Counties, n",3,22,descriptive,,,,
+"Median age, years",1,47.4 (3.5),unweighted county mean (SD),47.371428571428574,3.4654759859972786,,
+"Median age, years",2,34.4 (4.3),unweighted county mean (SD),34.4,4.335896677735761,,
+"Median age, years",3,42.6 (4.7),unweighted county mean (SD),42.64090909090909,4.688959585168334,,
+"American Indian / Alaska Native alone, %",1,3.4 (4.9),unweighted county mean (SD),3.3564131946433733,4.90717358171317,,
+"American Indian / Alaska Native alone, %",2,47.7 (16.6),unweighted county mean (SD),47.68718581039667,16.59302916957689,,
+"American Indian / Alaska Native alone, %",3,2.3 (4.5),unweighted county mean (SD),2.3459669602684294,4.478348101736573,,
+"Median household income, 2011 dollars",1,"38,079 (3,655)",unweighted county mean (SD),38079.392857142855,3655.194713760492,,
+"Median household income, 2011 dollars",2,"39,438 (2,637)",unweighted county mean (SD),39438.5,2637.173922971331,,
+"Median household income, 2011 dollars",3,"47,633 (5,542)",unweighted county mean (SD),47632.63636363636,5542.340579535608,,
+"Population below poverty threshold, %",1,15.6 (3.8),unweighted county mean (SD),15.64934088155739,3.8396735405696765,,
+"Population below poverty threshold, %",2,24.6 (3.7),unweighted county mean (SD),24.603718298866355,3.7448284631446436,,
+"Population below poverty threshold, %",3,11.9 (2.9),unweighted county mean (SD),11.900524058069967,2.9032958518382475,,
+"One-person households, %",1,31.8 (3.5),unweighted county mean (SD),31.76351183219177,3.544282725769095,,
+"One-person households, %",2,26.8 (4.4),unweighted county mean (SD),26.848188035572377,4.418708638645026,,
+"One-person households, %",3,28.5 (2.7),unweighted county mean (SD),28.509825932473813,2.7428064289370844,,
+"Divorced or separated, age 15+, %",1,11.7 (3.6),unweighted county mean (SD),11.652529759949877,3.603403284225518,,
+"Divorced or separated, age 15+, %",2,13.1 (1.7),unweighted county mean (SD),13.09483230898151,1.694842520670913,,
+"Divorced or separated, age 15+, %",3,12.6 (3.3),unweighted county mean (SD),12.588615989173084,3.330769027573848,,
+"Associate degree or higher, age 25+, %",1,26.5 (5.3),unweighted county mean (SD),26.54548890084772,5.305863324740888,,
+"Associate degree or higher, age 25+, %",2,27.6 (4.7),unweighted county mean (SD),27.587481106151102,4.738051807135004,,
+"Associate degree or higher, age 25+, %",3,34.2 (7.5),unweighted county mean (SD),34.180967414554885,7.457984286924824,,
+"Uninsured population, %",1,17.8 (5.3),unweighted county mean (SD),17.810714285714287,5.25627239314131,,
+"Uninsured population, %",2,31.2 (6.6),unweighted county mean (SD),31.166666666666668,6.564957476379162,,
+"Uninsured population, %",3,14.8 (3.6),unweighted county mean (SD),14.8,3.5567507911682807,,
+"Person-years, 2012-2021",1,"1,648,415",descriptive,,,,
+"Person-years, 2012-2021",2,"839,572",descriptive,,,,
+"Person-years, 2012-2021",3,"8,029,614",descriptive,,,,
+"Suicide deaths, total",1,474,descriptive,,,,
+"Suicide deaths, total",2,246,descriptive,,,,
+"Suicide deaths, total",3,"1,930",descriptive,,,,
+"Annual suicide deaths per county, mean (SD)",1,1.69 (2.46),county mean annual count (SD),1.6928571428571428,2.459739307389598,0.000293697654036139,0.00117479061614455
+"Annual suicide deaths per county, mean (SD)",2,4.10 (2.32),county mean annual count (SD),4.1,2.324650511367246,0.000293697654036139,0.00117479061614455
+"Annual suicide deaths per county, mean (SD)",3,8.77 (10.74),county mean annual count (SD),8.772727272727273,10.738235281911873,0.000293697654036139,0.00117479061614455
+"Suicide deaths / 100,000 person-years (95% CI)",1,28.75 (26.22-31.46),pooled crude rate (95% Poisson CI),28.754894853541128,,0.00436518909525869,0.0130955672857761
+"Suicide deaths / 100,000 person-years (95% CI)",2,29.30 (25.75-33.20),pooled crude rate (95% Poisson CI),29.30064366129409,,0.00436518909525869,0.0130955672857761
+"Suicide deaths / 100,000 person-years (95% CI)",3,24.04 (22.98-25.13),pooled crude rate (95% Poisson CI),24.03602464576753,,0.00436518909525869,0.0130955672857761
+"Age-adjusted deaths / 100,000, 2012-2021 (95% CI)",1,28.62 (24.85-32.95),model-standardized rate (95% county-clustered CI),28.6159240218048,,0.000323913071533894,0.000323913071533894
+"Age-adjusted deaths / 100,000, 2012-2021 (95% CI)",2,31.40 (28.15-35.01),model-standardized rate (95% county-clustered CI),31.3956923761649,,0.000323913071533894,0.000323913071533894
+"Age-adjusted deaths / 100,000, 2012-2021 (95% CI)",3,23.89 (22.18-25.74),model-standardized rate (95% county-clustered CI),23.8931361408038,,0.000323913071533894,0.000323913071533894
+"Age/sex-adjusted deaths / 100,000, 2013-2021 (95% CI)",1,28.53 (25.11-32.41),model-standardized rate (95% county-clustered CI),28.5300898893237,,2.37749875216593e-05,4.75499750433186e-05
+"Age/sex-adjusted deaths / 100,000, 2013-2021 (95% CI)",2,33.05 (30.29-36.06),model-standardized rate (95% county-clustered CI),33.0497374414978,,2.37749875216593e-05,4.75499750433186e-05
+"Age/sex-adjusted deaths / 100,000, 2013-2021 (95% CI)",3,24.36 (22.44-26.45),model-standardized rate (95% county-clustered CI),24.3615410287363,,2.37749875216593e-05,4.75499750433186e-05

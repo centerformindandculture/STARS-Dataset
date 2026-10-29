@@ -1,0 +1,4 @@
+"variable","category","n","percent_total","percent_known","total_records","known_records","missing_records"
+"SEX","MALE",2007,72.6121562952243,78.7676609105181,2764,2548,216
+"SEX","FEMALE",541,19.5730824891462,21.2323390894819,2764,2548,216
+"SEX","Missing",216,7.81476121562952,,2764,2548,216

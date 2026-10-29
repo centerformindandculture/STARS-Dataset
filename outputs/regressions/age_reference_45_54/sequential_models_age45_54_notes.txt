@@ -1,0 +1,22 @@
+Entries are odds ratios (two-source Wald 95% confidence intervals).
+* p < 0.05; ** p < 0.01; *** p < 0.001. Stars use unrounded, two-sided coefficient Wald p-values; no multiplicity adjustment.
+All columns use the identical adult complete-case sample within this table.
+Eligible age groups in this table: 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, 85+
+Model 1: sex, age, categorical year.
+Model 2 adds veteran status; Model 3 adds farmer/rancher occupation;
+Model 4 adds associate degree or higher and combined divorced/separated.
+Age reference: 45-54 for every age row. Year effects are included but not displayed.
+Study years in the common sample: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021
+STARS case weights are 1; IPUMS weights are PERWT.
+Only deaths with recorded MONTANA residence are eligible; known non-Montana and unknown-residence records are excluded.
+Attainment: associate/bachelor/master/doctorate or IPUMS EDUCD 81/101/114/115/116.
+Some college without a degree is classified as less than associate.
+Divorced and separated are pooled; unresolved source coding limitations remain.
+Covariance combines a Poisson case-process sandwich with ACS sampling covariance from 80 SDR replicates per annual sample (4/80 scaling).
+Annual ACS samples and mortality counts are treated as independent; see docs/REPLICATE_INFERENCE.md.
+Complete-case selection, including age-specific IPUMS variable universes, can distort age comparisons; see age_diagnostics_report.txt.
+Exact reparameterization of the confirmed-Montana-resident models; no records or covariates change.
+For age g, new log OR = original log OR(g vs 18-24) minus original log OR(45-54 vs 18-24).
+The intercept, complete covariance matrices, and every annual ACS replicate coefficient vector are transformed together.
+Fitted probabilities, likelihood, and non-age coefficients are unchanged; age p-values test contrasts with ages 45-54.
+See reference_change_checks.csv for exact-fit and replicated-covariance checks.

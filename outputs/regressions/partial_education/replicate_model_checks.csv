@@ -1,0 +1,9 @@
+"model","years","replicates_per_year","refits","unique_covariate_cells","maximum_score_residual","maximum_iterations","positive_weight_reference_error","full_sample_score_error","case_weights_fixed","negative_replicates_preserved","passed","elapsed_seconds"
+"sequential_partial_education_model1",8,80,640,128,1.83586479352016e-12,4,1.52655665885959e-14,1.01252339845814e-13,TRUE,TRUE,TRUE,0.450000000000003
+"sequential_partial_education_model2",8,80,640,254,1.95710114780923e-12,4,3.30263594250368e-13,5.15143483426073e-14,TRUE,TRUE,TRUE,0.639999999999986
+"sequential_partial_education_model3",8,80,640,427,2.05080397108759e-12,4,1.77635683940025e-14,2.24709140184132e-13,TRUE,TRUE,TRUE,0.769999999999996
+"sequential_partial_education_model4",8,80,640,1343,3.95994348423301e-12,4,1.08690834110803e-12,1.75859327100625e-13,TRUE,TRUE,TRUE,2.05999999999999
+"sequential_partial_education_with_race_model1",4,80,320,190,1.09123821090407e-12,4,4.44089209850063e-15,2.38031816479634e-13,TRUE,TRUE,TRUE,0.340000000000003
+"sequential_partial_education_with_race_model2",4,80,320,339,1.00708330563748e-12,4,1.50990331349021e-14,2.62012633811537e-14,TRUE,TRUE,TRUE,0.360000000000014
+"sequential_partial_education_with_race_model3",4,80,320,461,1.01607611213694e-12,4,4.66293670342566e-15,1.50990331349021e-13,TRUE,TRUE,TRUE,0.5
+"sequential_partial_education_with_race_model4",4,80,320,1284,1.38056233112138e-12,4,1.2090328738168e-12,3.73034936274053e-14,TRUE,TRUE,TRUE,0.989999999999995

@@ -1,0 +1,17 @@
+"model","source_model","age_reference","linear_predictor_error","non_age_coefficient_error","back_transform_error","sdr_covariance_error","annual_replications","passed"
+"sequential_models_age45_54_model1","principal_model1","45-54",8.88178419700125e-16,0,3.03576608295941e-18,3.11504836682241e-17,640,TRUE
+"sequential_models_age45_54_model2","principal_model2","45-54",1.77635683940025e-15,0,5.55111512312578e-17,6.48420661782112e-17,640,TRUE
+"sequential_models_age45_54_model3","principal_model3","45-54",1.77635683940025e-15,0,0,9.40884197810077e-17,640,TRUE
+"sequential_models_age45_54_model4","principal_model4","45-54",1.77635683940025e-15,0,8.88178419700125e-16,1.38777878078145e-16,640,TRUE
+"sequential_models_with_race_age45_54_model1","principal_race_model1","45-54",0,0,6.93889390390723e-18,4.5892245082238e-17,320,TRUE
+"sequential_models_with_race_age45_54_model2","principal_race_model2","45-54",0,0,8.67361737988404e-19,7.42949538695692e-17,320,TRUE
+"sequential_models_with_race_age45_54_model3","principal_race_model3","45-54",8.88178419700125e-16,0,6.93889390390723e-18,8.46084270353376e-17,320,TRUE
+"sequential_models_with_race_age45_54_model4","principal_race_model4","45-54",8.88178419700125e-16,0,2.77555756156289e-17,1.23815888097845e-16,320,TRUE
+"sequential_partial_education_age45_54_model1","sequential_partial_education_model1","45-54",8.88178419700125e-16,0,3.03576608295941e-18,3.11504836682241e-17,640,TRUE
+"sequential_partial_education_age45_54_model2","sequential_partial_education_model2","45-54",1.77635683940025e-15,0,5.55111512312578e-17,6.48420661782112e-17,640,TRUE
+"sequential_partial_education_age45_54_model3","sequential_partial_education_model3","45-54",1.77635683940025e-15,0,0,9.40884197810077e-17,640,TRUE
+"sequential_partial_education_age45_54_model4","sequential_partial_education_model4","45-54",1.77635683940025e-15,0,2.77555756156289e-17,1.47668335892526e-16,640,TRUE
+"sequential_partial_education_with_race_age45_54_model1","sequential_partial_education_with_race_model1","45-54",0,0,6.93889390390723e-18,4.5892245082238e-17,320,TRUE
+"sequential_partial_education_with_race_age45_54_model2","sequential_partial_education_with_race_model2","45-54",0,0,8.67361737988404e-19,7.42949538695692e-17,320,TRUE
+"sequential_partial_education_with_race_age45_54_model3","sequential_partial_education_with_race_model3","45-54",8.88178419700125e-16,0,6.93889390390723e-18,8.46084270353376e-17,320,TRUE
+"sequential_partial_education_with_race_age45_54_model4","sequential_partial_education_with_race_model4","45-54",1.77635683940025e-15,0,8.88178419700125e-16,1.80140190958467e-16,320,TRUE

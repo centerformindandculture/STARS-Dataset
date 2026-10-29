@@ -1,0 +1,3 @@
+"model","years","replicates_per_year","refits","unique_covariate_cells","maximum_score_residual","maximum_iterations","positive_weight_reference_error","full_sample_score_error","case_weights_fixed","negative_replicates_preserved","passed","elapsed_seconds"
+"joint_education_without_race",8,80,640,1860,4.38549196957183e-12,4,3.73034936274053e-14,1.35003119794419e-13,TRUE,TRUE,TRUE,2.91999999999999
+"joint_education_with_race",4,80,320,1732,1.85207404967969e-12,4,1.77635683940025e-14,2.48689957516035e-14,TRUE,TRUE,TRUE,1.22

@@ -1,0 +1,13 @@
+"analysis","source","education_group","records","weight_sum"
+"without_race","IPUMS","DEGREE",24125,2433929
+"without_race","IPUMS","OTHER_BELOW_ASSOCIATE",20601,2072934
+"without_race","IPUMS","PARTIAL",20308,2073600
+"without_race","STARS","DEGREE",498,498
+"without_race","STARS","OTHER_BELOW_ASSOCIATE",210,210
+"without_race","STARS","PARTIAL",1288,1288
+"with_race","IPUMS","DEGREE",12975,1312452
+"with_race","IPUMS","OTHER_BELOW_ASSOCIATE",10319,1038288
+"with_race","IPUMS","PARTIAL",10088,1017560
+"with_race","STARS","DEGREE",278,278
+"with_race","STARS","OTHER_BELOW_ASSOCIATE",187,187
+"with_race","STARS","PARTIAL",621,621

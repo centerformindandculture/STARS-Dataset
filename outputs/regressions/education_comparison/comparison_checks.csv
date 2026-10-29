@@ -1,0 +1,3 @@
+"analysis","same_samples_as_both_binary_models","current_input_checksums_match","three_group_linear_predictor_error","passed"
+"without_race",TRUE,TRUE,0,TRUE
+"with_race",TRUE,TRUE,0,TRUE

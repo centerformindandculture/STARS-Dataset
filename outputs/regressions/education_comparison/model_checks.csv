@@ -1,0 +1,3 @@
+"model","model_rows","cases","comparison_records","confirmed_montana_cases","non_montana_cases","unknown_residence_cases","residence_verified","weight_total","converged","rank","parameters","variance_method","minimum_age","maximum_age","year_reference","year_terms","passed"
+"joint_education_without_race",67030,1996,65034,1996,0,0,TRUE,6582459,TRUE,21,21,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2013",7,TRUE
+"joint_education_with_race",34468,1086,33382,1086,0,0,TRUE,3369386,TRUE,19,19,"Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference",18,96,"2017",3,TRUE

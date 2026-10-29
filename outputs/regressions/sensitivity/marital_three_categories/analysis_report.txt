@@ -1,0 +1,20 @@
+Three-category marital-status sensitivity analysis
+Categories: other (reference), divorced, separated. Missing status remains missing.
+Four sequential models share the principal sample within each race specification.
+Non-race years: 2013-2019 and 2021. Race-inclusive years: 2017-2019 and 2021.
+Model 4 adjusts for sex, age, veteran, farmer/rancher, degree attainment and categorical year; the race sequence also includes race/ethnicity.
+Uncertainty combines Poisson mortality-event covariance and annual ACS SDR covariance from 80 signed person replicate weights per year.
+Contrast OR >1 indicates higher adjusted odds for divorced than separated records.
+The equality test is a 1-df coefficient Wald test; the two race specifications form one two-test Holm family.
+Coefficient stars and contrast confidence intervals are pointwise and not multiplicity-adjusted.
+These comparisons do not resolve the uncertainty in recorded marital-status classifications.
+
+     analysis                comparison     odds_ratio       ci_lower
+ without_race Divorced versus separated 0.672355110540 0.534682165196
+    with_race Divorced versus separated 0.207078301312 0.152477596967
+       ci_upper    chi_square df                 p cases comparison_records
+ 0.845476853531  11.532002996  1 6.84082692625e-04  1996              65034
+ 0.281230972464 101.671887455  1 6.55237147110e-24  1086              33382
+                                   years            p_holm
+ 2013;2014;2015;2016;2017;2018;2019;2021 6.84082692625e-04
+                     2017;2018;2019;2021 1.31047429422e-23

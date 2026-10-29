@@ -1,0 +1,14 @@
+Joint education-indicator comparison, confirmed-Montana-resident adult samples.
+Both indicators enter the fully adjusted model: sex, adult age, veteran, farmer/rancher, divorced/separated and categorical year; race is added in the companion model.
+Age reference: 18-24. Education tests are invariant to changing the age reference.
+Education reference: other recorded below-associate attainment (STARS NO HIGH SCHOOL or HIGH SCHOOL OR GED; matching IPUMS below-grade-9 or high-school/GED codes).
+Partial: STARS SOME HIGH SCHOOL or SOME COLLEGE; IPUMS EDUCD 30/40/50/61/65/71. Degree: associate or higher.
+The mutually exclusive indicators create a three-group education classification.
+Testing the partial coefficient at zero tests whether partial adds beyond the degree-only model, which pools partial with other below-associate.
+Testing the degree coefficient at zero tests whether degree adds beyond the partial-only model, which pools degree with other below-associate.
+Each is a 1-df Wald test using combined Poisson mortality-event and year-blocked ACS SDR covariance; 80 signed replicates per annual sample, scaling 4/80.
+Raw and Holm-adjusted p-values are reported. The two incremental tests form one family within each sequence; race-inclusive tests are a separate sensitivity family.
+The two indicator ORs share the other-below-associate reference and differ from their binary-model contrasts.
+The partial-versus-degree contrast is descriptive with a pointwise 95% CI; contrast CIs are not multiplicity-adjusted.
+Sample equality, checksum consistency, resident eligibility and equivalence to a three-level factor are checked.
+These tests assess additional statistical information in recorded categories. They cannot establish causal effects or distinguish real patterns from recording/classification changes.

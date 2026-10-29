@@ -1,0 +1,151 @@
+"domain","k","unit","cluster","preferred"
+"county",3,"Beaverhead",3,TRUE
+"county",3,"Big Horn",2,TRUE
+"county",3,"Blaine",2,TRUE
+"county",3,"Broadwater",3,TRUE
+"county",3,"Carbon",3,TRUE
+"county",3,"Carter",1,TRUE
+"county",3,"Cascade",3,TRUE
+"county",3,"Chouteau",1,TRUE
+"county",3,"Custer",1,TRUE
+"county",3,"Daniels",1,TRUE
+"county",3,"Dawson",3,TRUE
+"county",3,"Deer Lodge",1,TRUE
+"county",3,"Fallon",3,TRUE
+"county",3,"Fergus",1,TRUE
+"county",3,"Flathead",3,TRUE
+"county",3,"Gallatin",3,TRUE
+"county",3,"Garfield",1,TRUE
+"county",3,"Glacier",2,TRUE
+"county",3,"Golden Valley",1,TRUE
+"county",3,"Granite",1,TRUE
+"county",3,"Hill",3,TRUE
+"county",3,"Jefferson",3,TRUE
+"county",3,"Judith Basin",1,TRUE
+"county",3,"Lake",2,TRUE
+"county",3,"Lewis and Clark",3,TRUE
+"county",3,"Liberty",1,TRUE
+"county",3,"Lincoln",1,TRUE
+"county",3,"McCone",3,TRUE
+"county",3,"Madison",3,TRUE
+"county",3,"Meagher",1,TRUE
+"county",3,"Mineral",1,TRUE
+"county",3,"Missoula",3,TRUE
+"county",3,"Musselshell",1,TRUE
+"county",3,"Park",3,TRUE
+"county",3,"Petroleum",1,TRUE
+"county",3,"Phillips",1,TRUE
+"county",3,"Pondera",1,TRUE
+"county",3,"Powder River",1,TRUE
+"county",3,"Powell",3,TRUE
+"county",3,"Prairie",1,TRUE
+"county",3,"Ravalli",3,TRUE
+"county",3,"Richland",3,TRUE
+"county",3,"Roosevelt",2,TRUE
+"county",3,"Rosebud",2,TRUE
+"county",3,"Sanders",1,TRUE
+"county",3,"Sheridan",1,TRUE
+"county",3,"Silver Bow",1,TRUE
+"county",3,"Stillwater",3,TRUE
+"county",3,"Sweet Grass",1,TRUE
+"county",3,"Teton",3,TRUE
+"county",3,"Toole",1,TRUE
+"county",3,"Treasure",1,TRUE
+"county",3,"Valley",1,TRUE
+"county",3,"Wheatland",1,TRUE
+"county",3,"Wibaux",3,TRUE
+"county",3,"Yellowstone",3,TRUE
+"county",4,"Beaverhead",4,FALSE
+"county",4,"Big Horn",2,FALSE
+"county",4,"Blaine",2,FALSE
+"county",4,"Broadwater",4,FALSE
+"county",4,"Carbon",4,FALSE
+"county",4,"Carter",3,FALSE
+"county",4,"Cascade",4,FALSE
+"county",4,"Chouteau",1,FALSE
+"county",4,"Custer",1,FALSE
+"county",4,"Daniels",3,FALSE
+"county",4,"Dawson",4,FALSE
+"county",4,"Deer Lodge",1,FALSE
+"county",4,"Fallon",3,FALSE
+"county",4,"Fergus",1,FALSE
+"county",4,"Flathead",4,FALSE
+"county",4,"Gallatin",4,FALSE
+"county",4,"Garfield",3,FALSE
+"county",4,"Glacier",2,FALSE
+"county",4,"Golden Valley",1,FALSE
+"county",4,"Granite",1,FALSE
+"county",4,"Hill",4,FALSE
+"county",4,"Jefferson",4,FALSE
+"county",4,"Judith Basin",3,FALSE
+"county",4,"Lake",1,FALSE
+"county",4,"Lewis and Clark",4,FALSE
+"county",4,"Liberty",3,FALSE
+"county",4,"Lincoln",1,FALSE
+"county",4,"McCone",3,FALSE
+"county",4,"Madison",4,FALSE
+"county",4,"Meagher",1,FALSE
+"county",4,"Mineral",1,FALSE
+"county",4,"Missoula",4,FALSE
+"county",4,"Musselshell",3,FALSE
+"county",4,"Park",4,FALSE
+"county",4,"Petroleum",3,FALSE
+"county",4,"Phillips",3,FALSE
+"county",4,"Pondera",1,FALSE
+"county",4,"Powder River",3,FALSE
+"county",4,"Powell",1,FALSE
+"county",4,"Prairie",3,FALSE
+"county",4,"Ravalli",4,FALSE
+"county",4,"Richland",4,FALSE
+"county",4,"Roosevelt",2,FALSE
+"county",4,"Rosebud",2,FALSE
+"county",4,"Sanders",1,FALSE
+"county",4,"Sheridan",3,FALSE
+"county",4,"Silver Bow",1,FALSE
+"county",4,"Stillwater",4,FALSE
+"county",4,"Sweet Grass",4,FALSE
+"county",4,"Teton",4,FALSE
+"county",4,"Toole",1,FALSE
+"county",4,"Treasure",3,FALSE
+"county",4,"Valley",3,FALSE
+"county",4,"Wheatland",3,FALSE
+"county",4,"Wibaux",4,FALSE
+"county",4,"Yellowstone",4,FALSE
+"month",3,"1",1,TRUE
+"month",3,"2",1,TRUE
+"month",3,"3",1,TRUE
+"month",3,"4",2,TRUE
+"month",3,"5",2,TRUE
+"month",3,"6",2,TRUE
+"month",3,"7",3,TRUE
+"month",3,"8",3,TRUE
+"month",3,"9",2,TRUE
+"month",3,"10",2,TRUE
+"month",3,"11",1,TRUE
+"month",3,"12",1,TRUE
+"month",4,"1",1,FALSE
+"month",4,"2",1,FALSE
+"month",4,"3",2,FALSE
+"month",4,"4",2,FALSE
+"month",4,"5",3,FALSE
+"month",4,"6",3,FALSE
+"month",4,"7",4,FALSE
+"month",4,"8",4,FALSE
+"month",4,"9",3,FALSE
+"month",4,"10",2,FALSE
+"month",4,"11",2,FALSE
+"month",4,"12",1,FALSE
+"weekday",3,"Friday",3,TRUE
+"weekday",3,"Monday",2,TRUE
+"weekday",3,"Saturday",3,TRUE
+"weekday",3,"Sunday",3,TRUE
+"weekday",3,"Thursday",1,TRUE
+"weekday",3,"Tuesday",1,TRUE
+"weekday",3,"Wednesday",2,TRUE
+"weekday",4,"Friday",4,FALSE
+"weekday",4,"Monday",2,FALSE
+"weekday",4,"Saturday",4,FALSE
+"weekday",4,"Sunday",3,FALSE
+"weekday",4,"Thursday",1,FALSE
+"weekday",4,"Tuesday",1,FALSE
+"weekday",4,"Wednesday",2,FALSE

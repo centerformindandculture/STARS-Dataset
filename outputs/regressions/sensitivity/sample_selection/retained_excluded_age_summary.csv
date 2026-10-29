@@ -1,0 +1,9 @@
+"scope","source","status","n","weight_total","mean_age","sd_age","median_age"
+"all_eligible_years","STARS","Retained",1996,1996,47.4273547094188,18.7913282729585,46
+"all_eligible_years","STARS","Excluded",256,256,48.2734375,17.8770155177963,48
+"all_eligible_years","IPUMS","Retained",65034,6580463,51.8996217363225,18.6759255374688,54
+"all_eligible_years","IPUMS","Excluded",7954,785253,51.3354287151119,18.3146461561089,53
+"supported_main_years","STARS","Retained",1996,1996,47.4273547094188,18.7913282729585,46
+"supported_main_years","STARS","Excluded",51,51,50.5294117647059,17.4360006207576,53
+"supported_main_years","IPUMS","Retained",65034,6580463,51.8996217363225,18.6759255374688,54
+"supported_main_years","IPUMS","Excluded",0,0,,,

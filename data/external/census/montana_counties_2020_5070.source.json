@@ -1,0 +1,8 @@
+{
+  "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/82/query?where=STATE%3D%2730%27&outFields=GEOID%2CNAME%2CCOUNTY&outSR=5070&f=json&returnGeometry=true&maxAllowableOffset=100",
+  "vintage": 2020,
+  "projection": "EPSG:5070",
+  "generalization_meters": 100,
+  "source": "U.S. Census Bureau TIGERweb",
+  "retrieved": "2026-10-21"
+}

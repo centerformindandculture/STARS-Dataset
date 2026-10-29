@@ -1,0 +1,121 @@
+"check","passed"
+"outcome-free analysis checks pass",TRUE
+"three clustering domains",TRUE
+"selected k in prespecified range",TRUE
+"county 3 all counties counted",TRUE
+"county 3 deaths reconcile",TRUE
+"county 3 rates reconcile",TRUE
+"county 4 all counties counted",TRUE
+"county 4 deaths reconcile",TRUE
+"county 4 rates reconcile",TRUE
+"adjusted county analyses pass",TRUE
+"source-cohort descriptives pass",TRUE
+"2020 descriptive comparison checks",TRUE
+"all regression replicate checks pass",TRUE
+"case weights fixed during ACS replication",TRUE
+"negative replicate weights retained",TRUE
+"regression covariance is two-source",TRUE
+"all IPUMS models present",TRUE
+"all regression records are adults",TRUE
+"all regression deaths are confirmed Montana residents",TRUE
+"principal_model1 fit checks",TRUE
+"principal_model2 fit checks",TRUE
+"principal_model3 fit checks",TRUE
+"principal_model4 fit checks",TRUE
+"race_complete_model_without_race fit checks",TRUE
+"principal_race_model4 fit checks",TRUE
+"principal_race_model1 fit checks",TRUE
+"principal_race_model2 fit checks",TRUE
+"principal_race_model3 fit checks",TRUE
+"exclude_2021_model fit checks",TRUE
+"without_marital_model fit checks",TRUE
+"without_marital_model_with_race fit checks",TRUE
+"age_sex_interaction_model fit checks",TRUE
+"age_sex_interaction_model_with_race fit checks",TRUE
+"late_years_model1 fit checks",TRUE
+"late_years_model2 fit checks",TRUE
+"late_years_model3 fit checks",TRUE
+"late_years_model4 fit checks",TRUE
+"age_25_plus_model1 fit checks",TRUE
+"age_25_plus_model2 fit checks",TRUE
+"age_25_plus_model3 fit checks",TRUE
+"age_25_plus_model4 fit checks",TRUE
+"age_25_plus_with_race_model1 fit checks",TRUE
+"age_25_plus_with_race_model2 fit checks",TRUE
+"age_25_plus_with_race_model3 fit checks",TRUE
+"age_25_plus_with_race_model4 fit checks",TRUE
+"minimal_available_model fit checks",TRUE
+"four primary models use identical records",TRUE
+"four primary model case counts identical",TRUE
+"four primary model comparator counts identical",TRUE
+"broader attainment replaces partial education",TRUE
+"divorced and separated grouped in main model",TRUE
+"eight three-category marital models pass with resident adults",TRUE
+"three-category marital ACS replicates pass",TRUE
+"marital models 1-3 agree with principal sequences",TRUE
+"two divorced-separated contrasts with Holm adjustment",TRUE
+"sequential_marital_three_categories separate categories enter only model4",TRUE
+"sequential_marital_three_categories uses principal cohort counts",TRUE
+"sequential_marital_three_categories_with_race separate categories enter only model4",TRUE
+"sequential_marital_three_categories_with_race uses principal cohort counts",TRUE
+"eight supplementary partial-education models pass",TRUE
+"partial-education deaths are confirmed Montana residents",TRUE
+"partial-education SDR checks pass",TRUE
+"sequential_partial_education models 1-3 reproduce principal estimates and SEs",TRUE
+"sequential_partial_education education enters model 4 only",TRUE
+"sequential_partial_education finite estimates and valid intervals",TRUE
+"sequential_partial_education same counts across four columns",TRUE
+"sequential_partial_education resident eligibility documented",TRUE
+"sequential_partial_education no nonresident or unknown-residence cases",TRUE
+"sequential_partial_education_with_race models 1-3 reproduce principal estimates and SEs",TRUE
+"sequential_partial_education_with_race education enters model 4 only",TRUE
+"sequential_partial_education_with_race finite estimates and valid intervals",TRUE
+"sequential_partial_education_with_race same counts across four columns",TRUE
+"sequential_partial_education_with_race resident eligibility documented",TRUE
+"sequential_partial_education_with_race no nonresident or unknown-residence cases",TRUE
+"16 age45-reference transformations preserve fits",TRUE
+"sequential_models age45 reference and seven contrasts",TRUE
+"sequential_models_with_race age45 reference and seven contrasts",TRUE
+"sequential_partial_education age45 reference and seven contrasts",TRUE
+"sequential_partial_education_with_race age45 reference and seven contrasts",TRUE
+"joint education models pass with confirmed residents",TRUE
+"joint education replicate inference passes",TRUE
+"joint education samples and equivalent factor agree",TRUE
+"four incremental education tests present",TRUE
+"without_race education Holm adjustment",TRUE
+"with_race education Holm adjustment",TRUE
+"main model uses designated August31 CSV",TRUE
+"main model has both sources for supported common-sample years",TRUE
+"2020 excluded from all IPUMS regression samples",TRUE
+"case weights equal one",TRUE
+"sample accounting balances",TRUE
+"pre2020 sensitivity uses seven supported years",TRUE
+"only years with both outcomes fitted",TRUE
+"principal_model1 year effects",TRUE
+"principal_model2 year effects",TRUE
+"principal_model3 year effects",TRUE
+"principal_model4 year effects",TRUE
+"race_complete_model_without_race year effects",TRUE
+"principal_race_model4 year effects",TRUE
+"principal_race_model1 year effects",TRUE
+"principal_race_model2 year effects",TRUE
+"principal_race_model3 year effects",TRUE
+"exclude_2021_model year effects",TRUE
+"without_marital_model year effects",TRUE
+"without_marital_model_with_race year effects",TRUE
+"age_sex_interaction_model year effects",TRUE
+"age_sex_interaction_model_with_race year effects",TRUE
+"late_years_model1 year effects",TRUE
+"late_years_model2 year effects",TRUE
+"late_years_model3 year effects",TRUE
+"late_years_model4 year effects",TRUE
+"age_25_plus_model1 year effects",TRUE
+"age_25_plus_model2 year effects",TRUE
+"age_25_plus_model3 year effects",TRUE
+"age_25_plus_model4 year effects",TRUE
+"age_25_plus_with_race_model1 year effects",TRUE
+"age_25_plus_with_race_model2 year effects",TRUE
+"age_25_plus_with_race_model3 year effects",TRUE
+"age_25_plus_with_race_model4 year effects",TRUE
+"minimal_available_model year effects",TRUE
+"unsupported years have no retained records",TRUE

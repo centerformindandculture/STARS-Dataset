@@ -1,0 +1,7 @@
+"analysis","comparison","odds_ratio","ci_lower","ci_upper"
+"without_race","Partial vs other below-associate",6.45137002825743,5.53232465329809,7.52308981301132
+"without_race","Degree vs other below-associate",2.52914547310021,2.13375723885228,2.99779970637331
+"without_race","Partial vs degree",2.55081018346856,2.26927736035055,2.86727074696668
+"with_race","Partial vs other below-associate",3.50233466573445,2.94107478737493,4.17070254842232
+"with_race","Degree vs other below-associate",1.45052588249469,1.19269739124135,1.7640898280134
+"with_race","Partial vs degree",2.41452752274296,2.06439187500132,2.82404868410923

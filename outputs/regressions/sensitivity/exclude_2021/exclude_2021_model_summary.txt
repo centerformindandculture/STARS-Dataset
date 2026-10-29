@@ -1,0 +1,59 @@
+Poisson case-process sandwich + year-blocked ACS SDR (4/80); normal Wald inference
+
+Call:
+glm(formula = formula, family = binomial(), data = model_data, 
+    weights = weight, na.action = na.omit, control = glm.control(epsilon = 1e-12, 
+        maxit = 100))
+
+Coefficients:
+                                    Estimate    Std. Error   z value   Pr(>|z|)
+(Intercept)                    -7.8865463647  0.0981930868 -80.31672 < 2.22e-16
+SEXFEMALE                      -1.2207640250  0.0633552834 -19.26854 < 2.22e-16
+AGE_ADULT25-34                 -0.0728935384  0.0974531890  -0.74799 0.45446911
+AGE_ADULT35-44                 -0.4063275568  0.1015949289  -3.99949 6.3480e-05
+AGE_ADULT45-54                 -0.6014776971  0.1020621655  -5.89325 3.7868e-09
+AGE_ADULT55-64                 -0.7613863085  0.1023228803  -7.44102 9.9913e-14
+AGE_ADULT65-74                 -1.0012019513  0.1176816468  -8.50772 < 2.22e-16
+AGE_ADULT75-84                 -0.6461709798  0.1341881704  -4.81541 1.4690e-06
+AGE_ADULT85+                   -0.1723395595  0.1663211884  -1.03619 0.30011573
+VETSTATAF                       0.4718391950  0.0738923204   6.38550 1.7084e-10
+FARMFARMER                      1.1514664425  0.1260966152   9.13162 < 2.22e-16
+EDUC_ATTAINASSOCIATE_OR_HIGHER -0.3598882831  0.0621288320  -5.79261 6.9300e-09
+DIVSEPDIVORCED/SEPARATED        1.8724652752  0.0580908648  32.23339 < 2.22e-16
+YEAR2014                       -0.1009888228  0.1027647817  -0.98272 0.32574614
+YEAR2015                        0.1043874760  0.0975160611   1.07046 0.28441031
+YEAR2016                        0.1179808774  0.0973892622   1.21144 0.22572827
+YEAR2017                        0.3312764492  0.0940463901   3.52248 0.00042753
+YEAR2018                        0.0807328316  0.0979004134   0.82464 0.40957464
+YEAR2019                        0.1080853531  0.0976400270   1.10698 0.26830348
+                                  
+(Intercept)                    ***
+SEXFEMALE                      ***
+AGE_ADULT25-34                    
+AGE_ADULT35-44                 ***
+AGE_ADULT45-54                 ***
+AGE_ADULT55-64                 ***
+AGE_ADULT65-74                 ***
+AGE_ADULT75-84                 ***
+AGE_ADULT85+                      
+VETSTATAF                      ***
+FARMFARMER                     ***
+EDUC_ATTAINASSOCIATE_OR_HIGHER ***
+DIVSEPDIVORCED/SEPARATED       ***
+YEAR2014                          
+YEAR2015                          
+YEAR2016                          
+YEAR2017                       ***
+YEAR2018                          
+YEAR2019                          
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 30925.56416  on 58183  degrees of freedom
+Residual deviance: 28920.58704  on 58165  degrees of freedom
+AIC: 28958.58704
+
+Number of Fisher Scoring iterations: 9
+

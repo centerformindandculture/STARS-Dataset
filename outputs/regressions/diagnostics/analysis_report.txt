@@ -1,0 +1,35 @@
+Year-matched IPUMS regression results
+Run time (UTC): 2026-10-27 14:06:18 UTC
+IPUMS extract: ipums_2012-2019_2021_with_replicate_weights.csv; codebook checked alongside extract.
+Years: 2012-2019 and 2021. STARS 2020 deaths are excluded from these regressions.
+STARS source: 20230831_Montana_Suicide_Database.csv.
+All regressions are restricted to adults age 18 or older in both sources.
+STARS deaths require recorded MONTANA residence; non-Montana and unknown residence are excluded before sample selection.
+Age categories split older adults into 65-74, 75-84 and 85+; reference 18-24.
+Four-model table uses one complete-case sample for all columns.
+See ../sensitivity/age_sex_interaction/sensitivity_report.txt for marital and age-by-sex comparisons.
+See ../sensitivity/sample_selection/selection_sensitivity_report.txt for eligibility and sample-selection comparisons.
+Model 1: sex + age + year; Model 2 adds veteran; Model 3 adds farmer/rancher;
+Model 4 adds associate degree or higher and combined divorced/separated.
+EDUC_ATTAIN reference: less than associate degree (some college without degree included).
+STARS degree labels: ASSOCIATES, BACHELORS, MASTERS, DOCTORATE.
+IPUMS degree EDUCD codes: 81, 101, 114, 115, 116; NIU 0/1 stays missing.
+Reference categories: male; age 18-24; other marital status; less than associate degree;
+not in armed forces; other occupation. Year reference is the first supported year.
+STARS case weight = 1; IPUMS weight = PERWT. No division by nine or ten.
+Each year's cases are compared with its annual population, with year intercepts.
+Eligible STARS records: 2363
+IPUMS input records: 91968
+Main model complete cases: 1996 STARS and 65034 IPUMS
+Main model year reference: 2013
+Some candidate years have no complete-case deaths for particular models.
+Such years are excluded from BOTH sources for that model; see model_year_coverage.csv.
+Predictor missingness and year exclusions are separate fields in the audit outputs.
+Model checks passed: 27 of 27
+All models use categorical year adjustment; sensitivity model omits 2021.
+Principal regressions use broad attainment; a separately labeled supplementary partial-education sequence is available.
+Divorced and separated are combined in the principal and supporting marital models.
+Combining categories does not resolve the documented source coding uncertainties.
+Uncertainty: Poisson case-process covariance plus year-blocked ACS SDR covariance; normal Wald intervals and tests.
+80 person replicate weights per annual ACS sample are supplied; signed values are preserved. No weights are divided by the number of years.
+Temporal alignment does not resolve measurement differences or missing-data bias.

@@ -1,0 +1,17 @@
+Missingness and analytical-sample sensitivities
+Retained/excluded profiles describe eligible adults in 2012-2019 and 2021.
+Two scopes separate exclusions across all candidate years from exclusions within supported principal years.
+STARS percentages use record counts; IPUMS exports also include PERWT-weighted percentages.
+Missing categories are reported explicitly. These are descriptive selection diagnostics, not tests of missing-at-random assumptions.
+Late-year models use 2017, 2018, 2019 and 2021 without requiring race to be observed.
+Age25plus tables use age 25-34 as reference; their age odds ratios cannot be directly compared with an age-18-24 reference.
+All four models share records within each restricted table.
+The minimal-model comparison changes the sample while keeping sex, age and categorical-year specifications fixed.
+Intervals and p-values use combined case-process and ACS SDR covariance; no imputation is performed.
+
+Main_Model4: cases=1996; comparisons=65034; age reference=18-24; years=2013;2014;2015;2016;2017;2018;2019;2021
+Late_years_Model4: cases=1086; comparisons=33382; age reference=18-24; years=2017;2018;2019;2021
+Age25plus_Model4: cases=1750; comparisons=58855; age reference=25-34; years=2013;2014;2015;2016;2017;2018;2019;2021
+Age25plus_race_Model4: cases=941; comparisons=30395; age reference=25-34; years=2017;2018;2019;2021
+Minimal_largest_sample: cases=2047; comparisons=65034; age reference=18-24; years=2013;2014;2015;2016;2017;2018;2019;2021
+Minimal_fixed_sample: cases=1996; comparisons=65034; age reference=18-24; years=2013;2014;2015;2016;2017;2018;2019;2021

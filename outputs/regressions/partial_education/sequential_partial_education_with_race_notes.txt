@@ -1,0 +1,24 @@
+Entries are odds ratios (two-source Wald 95% confidence intervals).
+* p < 0.05; ** p < 0.01; *** p < 0.001. Stars use unrounded, two-sided coefficient Wald p-values; no multiplicity adjustment.
+All columns use the identical adult complete-case sample within this table.
+Eligible age groups in this table: 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, 85+
+Model 1: sex, age, race/ethnicity, categorical year.
+Model 2 adds veteran status; Model 3 adds farmer/rancher occupation;
+Model 4 adds partial high school/college and combined divorced/separated.
+Age reference: 18-24 for every age row. Year effects are included but not displayed.
+Study years in the common sample: 2017, 2018, 2019, 2021
+STARS case weights are 1; IPUMS weights are PERWT.
+Only deaths with recorded MONTANA residence are eligible; known non-Montana and unknown-residence records are excluded.
+Divorced and separated are pooled; unresolved source coding limitations remain.
+Covariance combines a Poisson case-process sandwich with ACS sampling covariance from 80 SDR replicates per annual sample (4/80 scaling).
+Annual ACS samples and mortality counts are treated as independent; see docs/REPLICATE_INFERENCE.md.
+Complete-case selection, including age-specific IPUMS variable universes, can distort age comparisons; see age_diagnostics_report.txt.
+Race reference: White. Recorded Hispanic ethnicity is pooled into Other for both sources, following the existing harmonization.
+Other combines several race/ethnicity categories. This is not a clean race-only classification.
+The race table additionally requires recorded race; cross-table differences can reflect this selection as well as race adjustment.
+Supplementary models use partial high school or college as the education indicator.
+Partial: STARS SOME HIGH SCHOOL or SOME COLLEGE; IPUMS EDUCD 30/40/50/61/65/71.
+Reference: all other recorded education, including no high school/below grade 9, high school/GED and degrees.
+NIU/unknown education remains missing; partial does not establish dropout, enrollment or causation.
+These tables share the confirmed-Montana-resident principal cohorts to isolate the education definition.
+Known non-Montana and unknown-residence deaths are excluded before complete-case selection.

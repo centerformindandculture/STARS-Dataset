@@ -1,0 +1,16 @@
+﻿Characteristic,Cluster 1,Cluster 2,Cluster 3,Mortality p (Holm)
+"Counties, n",28,6,22,
+"Median age, years",47.4 (3.5),34.4 (4.3),42.6 (4.7),
+"American Indian / Alaska Native alone, %",3.4 (4.9),47.7 (16.6),2.3 (4.5),
+"Median household income, 2011 dollars","38,079 (3,655)","39,438 (2,637)","47,633 (5,542)",
+"Population below poverty threshold, %",15.6 (3.8),24.6 (3.7),11.9 (2.9),
+"One-person households, %",31.8 (3.5),26.8 (4.4),28.5 (2.7),
+"Divorced or separated, age 15+, %",11.7 (3.6),13.1 (1.7),12.6 (3.3),
+"Associate degree or higher, age 25+, %",26.5 (5.3),27.6 (4.7),34.2 (7.5),
+"Uninsured population, %",17.8 (5.3),31.2 (6.6),14.8 (3.6),
+"Person-years, 2012-2021","1,648,415","839,572","8,029,614",
+"Suicide deaths, total",474,246,"1,930",
+"Annual suicide deaths per county, mean (SD)",1.69 (2.46),4.10 (2.32),8.77 (10.74),0.0012
+"Suicide deaths / 100,000 person-years (95% CI)",28.75 (26.22-31.46),29.30 (25.75-33.20),24.04 (22.98-25.13),0.0131
+"Age-adjusted deaths / 100,000, 2012-2021 (95% CI)",28.62 (24.85-32.95),31.40 (28.15-35.01),23.89 (22.18-25.74),0.0003
+"Age/sex-adjusted deaths / 100,000, 2013-2021 (95% CI)",28.53 (25.11-32.41),33.05 (30.29-36.06),24.36 (22.44-26.45),<0.0001
